@@ -123,8 +123,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@media only screen and (max-width: 600px) {
-  header {
+@media only screen and (max-width: 768px) {
+  .top-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +143,7 @@ table {
     text-decoration: none;
     margin-bottom: 50px;
   }
-  header img {
+  .top-section img {
     border-radius: 50%;
     height: 150px;
     width: 150px;
