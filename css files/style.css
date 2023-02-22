@@ -197,15 +197,20 @@ hr {
 h5 {
   font-weight: 600;
   color: black;
+  margin-bottom: 50px;
 }
 a {
   text-decoration: none;
 }
 .project {
   height: 300px;
-  width: 400px;
+  width: 350px;
   background-color: aliceblue;
   margin: 50px;
+}
+.project img {
+  width: 350px;
+  height: 300px;
 }
 
 .projects-section > div > p {
@@ -261,6 +266,9 @@ footer {
 .projects-list li {
   margin-left: 20px;
 }
+h5 {
+  text-align: center;
+}
 @media only screen and (min-width: 768px) {
   .top-section {
     display: flex;
@@ -292,6 +300,29 @@ footer {
   .top-section-version h3 {
     margin-left: 0;
     width: 20rem;
+  }
+  #projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .more-projects {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+    font-weight: 600;
+  }
+  .project {
+    height: 400px;
+    width: 450px;
+    background-color: aliceblue;
+    margin: 50px;
+  }
+  .project img {
+    width: 450px;
+    height: 400px;
   }
   .projects-list {
     display: flex;
