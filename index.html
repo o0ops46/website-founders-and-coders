@@ -21,9 +21,9 @@
     <!-- navbar -->
     <header>
       <nav class="topnav" id="myTopnav">
-        <a href="#" class="active">home</a>
-        <a href="#">projects</a>
-        <a href="#">about</a>
+        <a href="#home" class="active">home</a>
+        <a href="#projects">projects</a>
+        <a href="#about">about</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars">
             
@@ -33,7 +33,8 @@
         </nav>
       </header>
       <!-- navbar -->
-    <section class="top-section">
+      <p style=" text-align:center;color: red">This website is still under construction</p>
+    <section id="home" class="top-section">
       <img
         src="https://media.licdn.com/dms/image/D4E03AQGP8LtNH_4vfQ/profile-displayphoto-shrink_800_800/0/1677061625476?e=1682553600&v=beta&t=cQlbzAo2-6Yqiba2sZQ4fgJZDKJG_TOhcvabccY2JcI"
         alt="profile photo"
@@ -78,13 +79,23 @@
     <section class="projects-section">
       <h3>Projects</h3>
       <ul class="projects-list">
-        <li>a</li>
-        <li>a</li>
-        <li>a</li>
-        <li>a</li>
+        <li><a href="#hobby-page"> hobby page</a></li>
+        <li>
+         <a href="#project-gallery">
+           project gallery
+         </a>
+        </li>
+        <li>
+
+          <a href="#movie-data">movie data</a>
+        </li>
+        <li>
+
+          <a href="#game">game</a>
+        </li>
       </ul>
-      <div class="projects-container">
-        <div class="project">
+      <div  id='projects'class="projects-container">
+        <div id='hobby-page'class="project">
           <a href="https://o0ops46.github.io/ex-machina/">
             <img
               src="https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg"
@@ -93,7 +104,18 @@
           </a>
         </div>
         <h5>Ex Machina - Hobby Page</h5>
-        <div class="project">
+
+        <div id='project-gallery'class="project">
+          <a href="https://o0ops46.github.io/admin-dashboard/">
+            <img
+              src="./resources/admin-dashboard.png"
+              alt="admin Dashboard photo"
+            />
+          </a>
+        </div>
+        <h5>Project Gallery</h5>
+        
+        <div  id='game' class="project">
           <a href="https://o0ops46.github.io/rock-paper-scissors/">
             <img
               src="./resources/project-rock.png"
@@ -141,7 +163,7 @@
     </section>
     <footer>
       <section class="footer-container">
-<div class="contact-details">
+<div id='about' class="contact-details">
  <p>
    hello@example.com
 
