@@ -217,9 +217,7 @@ a {
   margin-left: 50px;
   width: 400px;
 }
-.more-projects {
-  margin-top: 100px;
-}
+
 .more-projects button {
   /* margin-left: 50%; */
   border: 2px solid white;
@@ -268,6 +266,14 @@ footer {
 }
 h5 {
   text-align: center;
+}
+.more-projects {
+  text-align: center;
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .top-section {
