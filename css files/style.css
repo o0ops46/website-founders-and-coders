@@ -132,8 +132,12 @@ table {
   height: 100px;
   height: 100vh;
 }
+.top-section-version h3 {
+  width: 100vw;
+}
 .top-section-version {
   display: flex;
+  margin: 0px 50px;
   flex-direction: column;
   align-items: center;
 }
@@ -185,13 +189,15 @@ hr {
 }
 #about-me-section h3 {
   margin-bottom: 30px;
+  width: 100vw;
 }
 #about-me-section p {
-  width: 400px;
+  width: 350px;
 }
-.projects-container {
+.projects-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 h5 {
@@ -211,6 +217,7 @@ a {
 .project img {
   width: 350px;
   height: 300px;
+  margin-bottom: 10px;
 }
 
 .projects-section > div > p {
@@ -226,6 +233,7 @@ a {
   font-weight: 600;
   height: 120px;
 }
+
 footer {
   height: 500px;
   background-color: black;
@@ -319,6 +327,13 @@ a {
   h5 {
     text-align: center;
     font-weight: 600;
+  }
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .project {
     height: 400px;
