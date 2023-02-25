@@ -128,7 +128,6 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #f2e6e6a8; */
   height: 100px;
   height: 100vh;
 }
@@ -283,6 +282,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 @media only screen and (min-width: 768px) {
   .top-section {
     display: flex;
