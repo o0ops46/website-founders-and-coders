@@ -133,7 +133,7 @@ table {
   height: 100vh;
 }
 .top-section-version h3 {
-  width: 100vw;
+  width: 80vw;
 }
 .top-section-version {
   display: flex;
@@ -286,8 +286,7 @@ a {
 @media only screen and (min-width: 768px) {
   .top-section {
     display: flex;
-    /* width: 100%;
-     */
+
     padding-left: 20px;
     padding-right: 80px;
     justify-content: space-between;
@@ -314,6 +313,13 @@ a {
   .top-section-version h3 {
     margin-left: 0;
     width: 20rem;
+  }
+
+  #about-me-section h3 {
+    margin-left: 20rem;
+  }
+  #about-me-section p {
+    width: 80vw;
   }
   #projects {
     display: flex;
